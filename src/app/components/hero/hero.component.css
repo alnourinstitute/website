@@ -1,0 +1,12 @@
+.hero {
+    height: 100vh;
+    background-color: #f9f6f1;
+    color: #083b2d;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 180px;
+    height: auto;
+  }
+  

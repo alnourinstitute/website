@@ -1,10 +1,29 @@
 import { Component } from '@angular/core';
+import { HeroComponent } from './components/hero/hero.component';
+import { AboutComponent } from './components/about/about.component';
+import { CoursesComponent } from './components/courses/courses.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { WhyUsComponent } from './components/why-us/why-us.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  standalone: true,
+  imports: [
+    CommonModule,
+    HeroComponent,
+    AboutComponent,
+    CoursesComponent,
+    WhyUsComponent,
+    TestimonialsComponent,
+    ContactComponent,
+    FooterComponent
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'al-nour-institute';
