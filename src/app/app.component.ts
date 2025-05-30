@@ -8,6 +8,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { CommonModule } from '@angular/common';
+import { SuccessComponent } from './pages/success/success.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { CommonModule } from '@angular/common';
     AboutComponent,
     CoursesComponent,
     WhyUsComponent,
+    SuccessComponent,
     TestimonialsComponent,
     ContactComponent,
     FooterComponent
