@@ -9,6 +9,7 @@ import { WhyUsComponent } from './components/why-us/why-us.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SuccessComponent } from './pages/success/success.component';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -20,6 +21,7 @@ export const appConfig: ApplicationConfig = {
       { path: 'why-us', component: WhyUsComponent },
       { path: 'testimonials', component: TestimonialsComponent },
       { path: 'contact', component: ContactComponent },
+      { path: 'success', component: SuccessComponent},
       { path: 'footer', component: FooterComponent }
     ]),
   ]
