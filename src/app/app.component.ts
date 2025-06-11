@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 
 import { CommonModule } from '@angular/common';
 import { Router, NavigationEnd } from '@angular/router';
+import { SuccessComponent } from './pages/success/success.component';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +24,7 @@ import { Router, NavigationEnd } from '@angular/router';
     TestimonialsComponent,
     ContactComponent,
     FooterComponent,
+    SuccessComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',
