@@ -24,7 +24,6 @@ import { SuccessComponent } from './pages/success/success.component';
     TestimonialsComponent,
     ContactComponent,
     FooterComponent,
-    SuccessComponent,
     RouterOutlet
   ],
   templateUrl: './app.component.html',
