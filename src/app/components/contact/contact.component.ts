@@ -18,6 +18,7 @@ export class ContactComponent {
     event.preventDefault();
 
     const form = event.target as HTMLFormElement;
+    const formData = new FormData(form);
 
     // Netlify form submission manually with fetch
     fetch('/', {
