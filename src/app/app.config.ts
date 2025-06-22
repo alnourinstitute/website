@@ -14,6 +14,9 @@ import { QuranComponent } from './quran/quran.component';
 import { ArabicComponent } from './arabic/arabic.component';
 import { IslamicStudiesComponent } from './islamic-studies/islamic-studies.component';
 
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
@@ -25,6 +28,8 @@ const routes: Routes = [
   { path: 'testimonials', component: TestimonialsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'success', component: SuccessComponent },
+    { path: 'register', component: RegisterComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'footer', component: FooterComponent }
 ];
 
