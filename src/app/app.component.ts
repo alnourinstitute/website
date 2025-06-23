@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 import { Router, NavigationEnd } from '@angular/router';
 import { SuccessComponent } from './pages/success/success.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,

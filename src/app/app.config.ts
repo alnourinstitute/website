@@ -16,6 +16,8 @@ import { IslamicStudiesComponent } from './islamic-studies/islamic-studies.compo
 
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
+import { provideHttpClient } from '@angular/common/http';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -28,7 +30,7 @@ const routes: Routes = [
   { path: 'testimonials', component: TestimonialsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'success', component: SuccessComponent },
-    { path: 'register', component: RegisterComponent },
+  { path: 'register', component: RegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'footer', component: FooterComponent }
 ];
@@ -36,6 +38,7 @@ const routes: Routes = [
 export const appConfig: ApplicationConfig = {
   providers: [
     provideAnimations(),
-    provideRouter(routes)
+    provideRouter(routes),
+    provideHttpClient()
   ]
 };
